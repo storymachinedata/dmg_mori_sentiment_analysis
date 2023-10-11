@@ -1,4 +1,4 @@
-# dmg_mori_sentiment_analysis
+# DMG Mori Sentiment Analysis
 
 ## Introduction
 This project is a part of DMG Mori's Project. The goal of this project is to understand 
@@ -14,12 +14,30 @@ Setup:
 
 1. Initialize the virtualEnv
 ```{bash}
+$ pip install virtualenv
 $ python3 -m venv .env
 ```
 
 2. Activate the environment
 ```{bash}
+$ source .env/bin/activate
+```
+
+3. Install required libraries
+```{bash}
+$ pip install --no-cache-dir -r requirements.txt
+```
+
+**Windows**
+
+1. Initialize the virtualEnv
+```{bash}
 $ python3 -m venv .env
+```
+
+2. Activate the environment
+```{bash}
+$ .\.env\Scripts\activate
 ```
 
 3. Install required libraries
